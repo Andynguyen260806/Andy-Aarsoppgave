@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productsite</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script defer src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script type="module" src="https://fontawesome.com/icons/question?f=classic&s=solid"></script>
+</head>
+
+<body style="background-color: white;">
+
+  <!-- Nav bar på toppen av siden der man kan søke opp producter eller så på handlekurv-->
+  <div class="topnav">
+    <div class="TopNavItems">
+      <img src="Bilder/SmartHomeLogo.png" class="LogoNav">
+      <a href="home.html">
+        <button class="NavBtns"> Home <ion-icon name="home-outline"></ion-icon></ion-icon></button>
+      </a>
+      <a href="Handlekurv.html">
+        <button class="NavBtns"> Cart <ion-icon name="cart-outline"></ion-icon></button>
+      </a>
+      <a href="faq.html">
+        <button class="NavBtns"> FAQ <i class="fa-solid fa-question"></i></button>
+      </a>
+      <form id="form">
+        <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content"
+          class="Search">
+      </form>
+    </div>
+  </div>
+
+
+
+  <h3>Hvordan oppretter man en bruker for SmartHome?</h3>
+  <p>Først trykk på «Create user» for å opprettte bruker</p>
+  <p>Deretter kommer u til Opprett bruker siden. Her kan du lage din eget passord og Bruker som blir lagret til databasen. Etter du har fylt ut rutene kan du trykke på knappen «Submit» for å gå tilbake til login siden</p>
+
+  <h3>Hvordan legger man produkter inn i handlekurven?</h3>
+  <p>Når du er i hjemmesiden så ser du mange ulike produkter. </p>
+  <p>Hvis du trykker på en av produktene blir du ført til en side med en knapp som sier «Add to cart».Etter du trykker på knappen så blir produkten lagret til Handlekurven</p>
+  
+  <h3>Hvordan tømmer man Handlekurven?</h3>
+  <p>Hvis du har lagret et produkt til handlekurven så kan du trykke på knappen på nav baren som heter «Cart»</p>
+  <p>Deretter blir du ført til en side der du kan se alle produkter du har lagret til handlekurven. Hvis du vil tømme handlekurven så trykker på en knapp som heter «Empty cart»</p>
+</body>
+
+</html>
